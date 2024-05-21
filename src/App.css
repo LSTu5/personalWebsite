@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.App {
+  background: linear-gradient(to top left, 
+    #67d7ff,
+     #4bbcad,
+     #60bc4b,
+     #bdd251,
+     #e8ff62,
+     #f8d97a,
+     #f79f70,
+    #f77070,
+    #e562ff,
+    #a86eee,
+    #5b87ff,
+    #5b7fff
+
+   ); /* Adjust color stops and direction as needed */
+  height: 100vh; /* Set height to fill the viewport */
+  overflow: auto; /*Hide overflow content*/
+}
