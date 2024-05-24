@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import pfp from '../imgs/pfp.png'
 import brown1 from '../imgs/brown1.png'
 import rome from '../imgs/Rome.png'
@@ -19,7 +20,7 @@ export function AboutPage() {
                         </h1>
                         <div>
                         <h1 className= 'font-sans text-2xl'>I'm a developer and designer studying
-                        <span className= 'text-2xl font-chivo font-black'> Computer Science and Design Engineering @ Brown University</span>. 
+                        <span className= 'text-2xl font-chivo font-black'> Computer Science and Visual Arts @ Brown University</span>. 
                         </h1>
                         
                         </div>
@@ -54,7 +55,7 @@ export function AboutPage() {
                         </p>
                         <p>
                             <span className= 'font-chivo font-black'>
-                            a developer and lead designer for <span className='underline'><a href="https://carta-beta.stanford.edu/" target="_blank">Full Stack at Brown</a></span>
+                            a developer and lead designer for <span className='underline'><a href="https://github.com/fullstackatbrown" target="_blank">Full Stack at Brown</a></span>
                             </span>
                             , Brown’s web development organization.
                         </p>
@@ -67,9 +68,9 @@ export function AboutPage() {
                             and 
                             <span className='font-chivo font-black ml-[5px]'>Brown Poker Club</span>.                        </p>
                     </div>
-                    <div className= ''>
+                    {/*<div className= ''>
                         <img src={rome} className='max-h-[400px] items-center object-contain'/>
-                    </div>
+                    </div>*/  }
                 </div>
                 <div className='font-sans mb-10 flex flex-col space-y-10 items-center md:items-start md:flex-row md:space-x-10 md:space-y-0 md:justify-between'>
                     <div className='flex flex-col space-y-4 leading-6 text-[16px]'>
@@ -117,7 +118,7 @@ export function AboutPage() {
                             </div>
                             <div>
                                 <h1 className= 'font-chivo text-base'>HOBBIES</h1>
-                                <h1 classname= 'text-2xl'>Any Sport, Cooking, Art</h1>
+                                <h1 classname= 'text-2xl'>Sports (Basketball, Football, Olympics), Cooking (Grilling and Quick Recipes), Art (Mainly Drawing and Painting)</h1>
                             </div>
                         </div>
                         <div className= 'font-sans text-xl space-y-3'>
