@@ -15,16 +15,16 @@ export function Navbar() {
                 </div>
                 <ul className="flex space-x-10 text-gray-700 font-sans">
                     <li>
-                        <a href="/work" className={`text-lg font-bold ${location.pathname === '/work' ? 'text-gray-500' : 'hover:text-gray-400'}`}>WORK</a>
+                        <a href="/personalWebsite/work" className={`text-lg font-bold ${location.pathname === '/personalWebsite/work' ? 'text-gray-500' : 'hover:text-gray-400'}`}>WORK</a>
                     </li>
                     <li>
-                        <a href="/experiences" className={`text-lg font-bold ${location.pathname === '/experiences' ? 'text-gray-500' : 'hover:text-gray-400'}`}>EXPERIENCES</a>
+                        <a href="/personalWebsite/experiences" className={`text-lg font-bold ${location.pathname === '/personalWebsite/experiences' ? 'text-gray-500' : 'hover:text-gray-400'}`}>EXPERIENCES</a>
                     </li>
                     <li>
-                        <a href={Resume} target="_blank" rel="noopener noreferrer" className={`text-lg font-bold ${location.pathname === '/resume' ? 'text-gray-500' : 'hover:text-gray-400'}`}>RESUME</a>
+                        <a href={Resume} target="_blank" rel="noopener noreferrer" className={`text-lg font-bold ${location.pathname === '/personalWebsite/resume' ? 'text-gray-500' : 'hover:text-gray-400'}`}>RESUME</a>
                     </li>
                     <li>
-                        <a href="/" className={`text-lg font-bold  ${location.pathname === '/' ? 'text-gray-500' : 'hover:text-gray-400'}`}>ABOUT</a>
+                        <a href="/personalWebsite" className={`text-lg font-bold  ${location.pathname === '/personalWebsite' ? 'text-gray-500' : 'hover:text-gray-400'}`}>ABOUT</a>
                     </li>
                 </ul>
             </div>
