@@ -24,7 +24,7 @@ export function Navbar() {
                         <a href={Resume} target="_blank" rel="noopener noreferrer" className={`text-lg font-bold ${location.pathname === '/resume' ? 'text-gray-500' : 'hover:text-gray-400'}`}>RESUME</a>
                     </li>
                     <li>
-                        <a href="/about" className={`text-lg font-bold  ${location.pathname === '/about' ? 'text-gray-500' : 'hover:text-gray-400'}`}>ABOUT</a>
+                        <a href="/" className={`text-lg font-bold  ${location.pathname === '/' ? 'text-gray-500' : 'hover:text-gray-400'}`}>ABOUT</a>
                     </li>
                 </ul>
             </div>
