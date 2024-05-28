@@ -15,16 +15,16 @@ export function Navbar() {
                 </div>
                 <ul className="flex space-x-10 text-gray-700 font-sans">
                     <li>
-                        <Link to="/work" className={`text-lg font-bold ${location.pathname === '/work' ? 'text-gray-500' : 'hover:text-gray-400'}`}>WORK</Link>
+                        <Link to="/personalWebsite/work" className={`text-lg font-bold ${location.pathname === '/personalWebsite/work' ? 'text-gray-500' : 'hover:text-gray-400'}`}>WORK</Link>
                     </li>
                     <li>
-                        <Link to="/experiences" className={`text-lg font-bold ${location.pathname === '/experiences' ? 'text-gray-500' : 'hover:text-gray-400'}`}>EXPERIENCES</Link>
+                        <Link to="/personalWebsite/experiences" className={`text-lg font-bold ${location.pathname === '/personalWebsite/experiences' ? 'text-gray-500' : 'hover:text-gray-400'}`}>EXPERIENCES</Link>
                     </li>
                     <li>
                         <a href={Resume} target="_blank" rel="noopener noreferrer" className={`text-lg font-bold ${location.pathname === '/resume' ? 'text-gray-500' : 'hover:text-gray-400'}`}>RESUME</a>
                     </li>
                     <li>
-                        <Link to="/" className={`text-lg font-bold  ${location.pathname === '/' ? 'text-gray-500' : 'hover:text-gray-400'}`}>ABOUT</Link>
+                        <Link to="/personalWebsite" className={`text-lg font-bold  ${location.pathname === '/personalWebsite' ? 'text-gray-500' : 'hover:text-gray-400'}`}>ABOUT</Link>
                     </li>
                 </ul>
             </div>

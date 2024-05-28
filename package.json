@@ -45,5 +45,6 @@
     "postcss": "^8.4.20",
     "tailwindcss": "^3.4.3",
     "gh-pages": "^5.0.0"
-  }
+  },
+  "homepage": "https://LSTu5.github.io/personalWebsite"
 }
