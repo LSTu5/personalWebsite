@@ -12,11 +12,11 @@ function App() {
     <div className='App'>
       <Navbar/>
       <Routes>
-        <Route path='/work' element={<WorkPage/>}/>
-        <Route path='/experiences' element={<ExperiencePage/>}/>
-        <Route path='/resume' element={<div></div>}/>
-        <Route path='' element={<AboutPage/>}/>
-        <Route path='/construction' element={<Construction/>}/>
+        <Route exact path='/work' element={<WorkPage/>}/>
+        <Route exact path='/experiences' element={<ExperiencePage/>}/>
+        <Route exact path='/resume' element={<div></div>}/>
+        <Route exact path='/' element={<AboutPage/>}/>
+        <Route exact path='/construction' element={<Construction/>}/>
       </Routes>
       <Footer/>
     </div>
