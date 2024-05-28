@@ -46,7 +46,7 @@ export function WorkPage() {
           <ProjectCard
             id= '4'
             color= '#84E7D6'
-            title= 'Voice iMessage Redesign'
+            title= 'ECG Monitor'
             tags={['Prototyping','Hardware','Research']}
             company= 'Project/Prototype'
             img= {ecg}
