@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render( // Use ReactDOM.render instead of ReactDOM.createRoot
-  <BrowserRouter>
+ReactDOM.render(
+  <BrowserRouter basename="/personalWebsite">
     <App />
   </BrowserRouter>,
   document.getElementById('root')
