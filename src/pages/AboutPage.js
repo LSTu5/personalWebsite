@@ -49,7 +49,7 @@ export function AboutPage() {
                         <p>Outside of class I'm...</p>
                         <p>
                             <span className= 'font-chivo font-black'>
-                            the Outreach Team Lead and an Advertising and Branding Consultant for <span className='underline'><a href="https://www.brownentrepreneurship.com/" target="_blank">Brown Entrepreneurship Program</a></span>
+                            the Outreach Team Lead and a member of the Alumni Relations team for <span className='underline'><a href="https://www.brownentrepreneurship.com/" target="_blank">Brown Entrepreneurship Program</a></span>
                             </span>
                             , where my job is to grow the size and network of Brown’s entrepreneurship ecosystem by collaborating with alumni, executives, other schools, and more. 
                         </p>
@@ -76,11 +76,10 @@ export function AboutPage() {
                     <div className='flex flex-col space-y-4 leading-6 text-[16px]'>
                         <div>
                             <h1 className='font-chivo font-bold text-base'>CURRENT COURSEWORK</h1>
-                            <p classname='text-2xl'>CSCI 1430: Computer Vision</p>
-                            <p classname='text-2xl'>CSCI 1300: User Interfaces and User Experience</p>
+                            <p classname='text-2xl'>CSCI 0320: Software Engineering</p>
+                            <p classname='text-2xl'>APMA 0350: Differential Equations</p>
                             <p classname='text-2xl'>MATH 0180: Multivariable Calculus</p>
-                            <p classname='text-2xl'>PHIL 1561: Ethics, Economics, and the Future</p>
-                            <p classname='text-2xl'>VISA 0100: Studio Foundation</p>
+                            <p classname='text-2xl'>ECON 1110: Microeconomics</p>
 
                         </div>
                         <div>
@@ -107,7 +106,7 @@ export function AboutPage() {
                     </div>
                 </div> 
                 <div className= ''>
-                    <h1 className= 'mb-4 font-chivo text-base py-2 border-b-[1px] border-black'>
+                <h1 className= 'font-chivo font-bold text-base py-2 border-b-[1px] border-black mb-2'>
                     @ HOME
                     </h1>
                     <div className= 'flex flex-col space-y-10 md:space-y-0 md:flex-row md:space-x-10 mb-10'>
@@ -118,15 +117,11 @@ export function AboutPage() {
                             </div>
                             <div>
                                 <h1 className= 'font-chivo text-base'>HOBBIES</h1>
-                                <h1 classname= 'text-2xl'>Sports (Basketball, Football, Olympics), Cooking (Grilling and Quick Recipes), Art (Mainly Drawing and Painting)</h1>
+                                <h1 classname= 'text-2xl'>Sports, Cooking, Art, Traveling, Working Out</h1>
                             </div>
                         </div>
                         <div className= 'font-sans text-xl space-y-3'>
-                        <p>I’m someone who always loves to learn and be challenged. Whether it's on the golf course or the basketball court or in the kitchen or studio, I find excitement in grappling with problems.
-                        </p>
                         
-                        <p>2024 Goals: Hit the fairway on my tee shots, stretch consistently, bake a cake, read and write more, and spend more time with friends and family.
-                        </p>
                         
 
                         </div>
