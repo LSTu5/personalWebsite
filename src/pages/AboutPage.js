@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
-import pfp from '../imgs/pfp.png'
 import brown1 from '../imgs/brown1.png'
-import rome from '../imgs/Rome.png'
-
+import HeaderAnimation from '../components/headerAnimation'; // Adjust path if necessary
 
 
 
@@ -10,34 +8,37 @@ import rome from '../imgs/Rome.png'
 export function AboutPage() {
 
     return (
+
+        
         <div className= 'flex flex-col items-center mx-[50px] md:mx-[110px] mb-[60px] space-y-10'>
+            <HeaderAnimation />
+
             <div className= 'flex flex-col space-y-10 md:w-[680px] md:flex-row md:space-x-10 md:space-y-0 md:items-end'>
-                <img src={pfp} className='h-[360px] object-contain'/>
+                
+
                 <div className= 'flex flex-col space-y-10'>
-                    <div>
-                        <h1 className= 'text-2xl font-chivo font-black mb-3'>
-                            Hi, I'm Luke!
-                        </h1>
+                        
                         <div>
-                        <h1 className= 'font-sans text-2xl'>I'm a developer and designer studying
-                        <span className= 'text-2xl font-chivo font-black'> Computer Science and Visual Arts @ Brown University</span>. 
+                        <h1 className= 'font-sans text-2xl'>My name is Luke Tu, and I'm a student at Brown University studying Computer Science and Applied Mathematics. I hope you have a great day👍
+                        {/* <span className= 'text-2xl font-chivo font-black'> Computer Science and Visual Arts @ Brown University</span>.  */}
                         </h1>
                         
-                        </div>
                     </div>
-                    <div className='space-y-3 font-sans'>
+                    {/* <div className='space-y-3 font-sans'>
                         <div>
                             <h1 className='font-chivo text-base'>CURRENTLY LEARNING</h1>
-                            <p classname='text-2xl'>Blender, How to Bake, and Mobility Exercises</p>
+                            <p className='text-2xl'>Yoga Stretches, Blender, new investing strategies</p>
                         </div>
                         <div>
                             <h1 className= 'font-chivo text-base'>CURRENTLY READING</h1>
-                            <h1 classname= 'text-2xl'>When We Cease to Understand the World by Benjamin Labatut</h1>
+                            <h1 classname= 'text-2xl'>The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics by Daniel James Brown</h1>
                         </div>
                         
-                    </div>
+                    </div> */}
                 </div>
             </div>
+
+
             <div className='w-full '  >
                 <div className= 'mb-4'>
                 <h1 className= 'font-chivo font-bold text-base py-2 border-b-[1px] border-black mb-2'>
@@ -49,21 +50,22 @@ export function AboutPage() {
                         <p>Outside of class I'm...</p>
                         <p>
                             <span className= 'font-chivo font-black'>
-                            the Outreach Team Lead and a member of the Alumni Relations team for <span className='underline'><a href="https://www.brownentrepreneurship.com/" target="_blank">Brown Entrepreneurship Program</a></span>
+                            the Outreach Team Lead and a member of the Alumni Relations team for <span className='underline'><a href="https://www.brownentrepreneurship.com/" target="_blank" rel="noopener noreferrer">Brown Entrepreneurship Program</a></span>
                             </span>
                             , where my job is to grow the size and network of Brown’s entrepreneurship ecosystem by collaborating with alumni, executives, other schools, and more. 
                         </p>
                         <p>
                             <span className= 'font-chivo font-black'>
-                            a developer and lead designer for <span className='underline'><a href="https://github.com/fullstackatbrown" target="_blank">Full Stack at Brown</a></span>
+                            a developer and lead designer for <span className='underline'><a href="https://github.com/fullstackatbrown" target="_blank" rel="noopener noreferrer">Full Stack at Brown</a></span>
                             </span>
                             , Brown’s web development organization.
                         </p>
                        
                         <p>
                             a member of 
-                            <span className='font-chivo font-black underline ml-[5px]'><a href="https://www.brownmedicalentrepreneurshipsociety.org/" target="_blank">Brown Medical Entrepreneurship Society</a></span>, 
-                            <span className='font-chivo font-black underline ml-[5px]'><a href="https://browninvestmentgroup.co/" target="_blank">Brown Investment Group</a></span>,
+                            <span className='font-chivo font-black underline ml-[5px]'><a href="https://browninvestmentgroup.co/" target="_blank" rel="noopener noreferrer">Brown Investment Group</a></span>,
+                            <span className='font-chivo font-black underline ml-[5px]'><a href="https://brownsrif.squarespace.com/" target="_blank" rel="noopener noreferrer">Brown Socially Responsible Investment Fund</a></span>,
+                            <span className='font-chivo font-black underline ml-[5px]'><a href="https://www.brownmedicalentrepreneurshipsociety.org/" target="_blank" rel="noopener noreferrer">Brown Medical Entrepreneurship Society</a></span>, 
                             <span className='font-chivo font-black ml-[5px]'>Brown Club Lacrosse</span>, 
                             and 
                             <span className='font-chivo font-black ml-[5px]'>Brown Poker Club</span>.                        </p>

@@ -17,9 +17,9 @@ export function Navbar() {
                     <li>
                         <Link to="/work" className={`text-lg font-bold ${location.pathname === '/work' ? 'text-gray-500' : 'hover:text-gray-400'}`}>WORK</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/experiences" className={`text-lg font-bold ${location.pathname === '/experiences' ? 'text-gray-500' : 'hover:text-gray-400'}`}>EXPERIENCES</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <a href={Resume} target="_blank" rel="noopener noreferrer" className={`text-lg font-bold ${location.pathname === '/resume' ? 'text-gray-500' : 'hover:text-gray-400'}`}>RESUME</a>
                     </li>

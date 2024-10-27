@@ -8,11 +8,11 @@ export function WorkPage() {
     return (
         <div className= 'flex flex-col main-body items-center mb-[60px] space-y-10'>
             {/* Large clickable text */}
-            <div className='text-2xl font-bold my-10 underline'>
+            {/* <div className='text-2xl font-bold my-10 underline'>
                 <a href='https://www.google.com' target='_blank' rel='noopener noreferrer' className='text-red-500 hover:text-blue-700'>
                     Click here for deeper look into portfolio
                 </a>
-            </div>
+            </div> */}
         <div className= 'flex flex-col space-y-10 md:flex-row md:space-x-20 md:space-y-0'>
           <ProjectCard
             id= '1'
