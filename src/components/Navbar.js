@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../imgs/logo.png'; // Assuming you have the logo image imported
+import Logo from '../imgs/LTlogo.png'; // Assuming you have the logo image imported
 import Resume from '../documents/resume.pdf'
 
 
