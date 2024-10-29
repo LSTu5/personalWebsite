@@ -3,6 +3,7 @@ import othello from '../imgs/othello.png'
 import fruitNinja from '../imgs/fninja.png'
 import fsab from '../imgs/fsab.png'
 import ecg from '../imgs/ecg.png'
+import wusm from '../imgs/wusm.jpg'
 
 export function WorkPage() {
     return (
@@ -26,10 +27,10 @@ export function WorkPage() {
           <ProjectCard
             id= '2'
             color= '#2449FE'
-            title= 'Fruit Ninjaesque'
-            tags={['UI/UX Design', 'Game Dev']}
+            title= 'Muscle Classification Project'
+            tags={['Project Management', 'AI','Data Processing']}
             company= 'Project'
-            img= {fruitNinja}
+            img= {wusm}
             projectPage = '/construction'
           />
         </div>
